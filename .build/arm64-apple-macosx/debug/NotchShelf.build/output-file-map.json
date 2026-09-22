@@ -1,0 +1,75 @@
+{
+  "": {
+    "swift-dependencies": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/primary.swiftdeps"
+  },
+  "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/App/AppDelegate.swift": {
+    "dependencies": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/AppDelegate.d",
+    "object": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/AppDelegate.swift.o",
+    "swiftmodule": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/AppDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/AppDelegate.swiftdeps",
+    "diagnostics": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/AppDelegate.dia"
+  },
+  "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/App/NotchShelfApp.swift": {
+    "dependencies": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchShelfApp.d",
+    "object": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchShelfApp.swift.o",
+    "swiftmodule": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchShelfApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchShelfApp.swiftdeps",
+    "diagnostics": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchShelfApp.dia"
+  },
+  "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/ClipboardManager.swift": {
+    "dependencies": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ClipboardManager.d",
+    "object": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ClipboardManager.swift.o",
+    "swiftmodule": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ClipboardManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ClipboardManager.swiftdeps",
+    "diagnostics": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ClipboardManager.dia"
+  },
+  "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/MediaListener.swift": {
+    "dependencies": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/MediaListener.d",
+    "object": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/MediaListener.swift.o",
+    "swiftmodule": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/MediaListener~partial.swiftmodule",
+    "swift-dependencies": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/MediaListener.swiftdeps",
+    "diagnostics": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/MediaListener.dia"
+  },
+  "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/MouseGestureHandler.swift": {
+    "dependencies": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/MouseGestureHandler.d",
+    "object": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/MouseGestureHandler.swift.o",
+    "swiftmodule": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/MouseGestureHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/MouseGestureHandler.swiftdeps",
+    "diagnostics": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/MouseGestureHandler.dia"
+  },
+  "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/SharedState.swift": {
+    "dependencies": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/SharedState.d",
+    "object": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/SharedState.swift.o",
+    "swiftmodule": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/SharedState~partial.swiftmodule",
+    "swift-dependencies": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/SharedState.swiftdeps",
+    "diagnostics": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/SharedState.dia"
+  },
+  "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/ShelfDropManager.swift": {
+    "dependencies": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ShelfDropManager.d",
+    "object": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ShelfDropManager.swift.o",
+    "swiftmodule": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ShelfDropManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ShelfDropManager.swiftdeps",
+    "diagnostics": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ShelfDropManager.dia"
+  },
+  "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/UI/ContentView.swift": {
+    "dependencies": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ContentView.d",
+    "object": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ContentView.swift.o",
+    "swiftmodule": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ContentView.swiftdeps",
+    "diagnostics": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ContentView.dia"
+  },
+  "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/UI/NotchPanel.swift": {
+    "dependencies": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchPanel.d",
+    "object": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchPanel.swift.o",
+    "swiftmodule": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchPanel~partial.swiftmodule",
+    "swift-dependencies": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchPanel.swiftdeps",
+    "diagnostics": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchPanel.dia"
+  },
+  "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/UI/NotchWindowController.swift": {
+    "dependencies": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchWindowController.d",
+    "object": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchWindowController.swift.o",
+    "swiftmodule": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchWindowController~partial.swiftmodule",
+    "swift-dependencies": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchWindowController.swiftdeps",
+    "diagnostics": "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchWindowController.dia"
+  }
+}

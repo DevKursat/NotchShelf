@@ -1,0 +1,404 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.NotchShelf-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/sources",
+      "importPath" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/App/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/App/NotchShelfApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/ClipboardManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/MediaListener.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/MouseGestureHandler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/SharedState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/ShelfDropManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/UI/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/UI/NotchPanel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/UI/NotchWindowController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "NotchShelf",
+      "moduleOutputPath" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/Modules/NotchShelf.swiftmodule",
+      "objects" : [
+        "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/AppDelegate.swift.o",
+        "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchShelfApp.swift.o",
+        "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ClipboardManager.swift.o",
+        "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/MediaListener.swift.o",
+        "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/MouseGestureHandler.swift.o",
+        "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/SharedState.swift.o",
+        "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ShelfDropManager.swift.o",
+        "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ContentView.swift.o",
+        "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchPanel.swift.o",
+        "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchWindowController.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "NotchShelf_main",
+        "-swift-version",
+        "5",
+        "-I",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-L",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchShelfApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ClipboardManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/MediaListener.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/MouseGestureHandler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/SharedState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ShelfDropManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchPanel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchWindowController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/Modules/NotchShelf.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/App/AppDelegate.swift",
+        "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/App/NotchShelfApp.swift",
+        "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/ClipboardManager.swift",
+        "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/MediaListener.swift",
+        "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/MouseGestureHandler.swift",
+        "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/SharedState.swift",
+        "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/ShelfDropManager.swift",
+        "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/UI/ContentView.swift",
+        "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/UI/NotchPanel.swift",
+        "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/UI/NotchWindowController.swift"
+      ],
+      "tempsPath" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "NotchShelf" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "NotchShelf",
+      "-c",
+      "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/App/AppDelegate.swift",
+      "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/App/NotchShelfApp.swift",
+      "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/ClipboardManager.swift",
+      "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/MediaListener.swift",
+      "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/MouseGestureHandler.swift",
+      "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/SharedState.swift",
+      "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/ShelfDropManager.swift",
+      "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/UI/ContentView.swift",
+      "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/UI/NotchPanel.swift",
+      "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/UI/NotchWindowController.swift",
+      "-I",
+      "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "NotchShelf_main",
+      "-swift-version",
+      "5",
+      "-I",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-L",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "NotchShelf" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf-entitlement.plist"
+    },
+    "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/App/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/App/NotchShelfApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/ClipboardManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/MediaListener.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/MouseGestureHandler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/SharedState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/Core/ShelfDropManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/UI/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/UI/NotchPanel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/NotchShelf/Sources/UI/NotchWindowController.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/sources"
+    },
+    "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ClipboardManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/MediaListener.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/MouseGestureHandler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchPanel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchShelfApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/NotchWindowController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/SharedState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.build/ShelfDropManager.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/NotchShelf.product/Objects.LinkFileList"
+    },
+    "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/kursat/Downloads/NotchShelf/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}

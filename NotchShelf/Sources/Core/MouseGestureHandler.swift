@@ -109,11 +109,11 @@ class MouseGestureHandler {
     private func showContextMenu(event: NSEvent, view: NSView) {
         NSHapticFeedbackManager.defaultPerformer.perform(.generic, performanceTime: .now)
         let menu = NSMenu(title: "Notch Actions")
-        menu.addItem(withTitle: "Pano Geçmişini Temizle", action: #selector(clearClipboard), keyEquivalent: "")
-        menu.addItem(withTitle: "Rafı Boşalt", action: #selector(clearShelf), keyEquivalent: "")
+        menu.addItem(withTitle: "Clear Clipboard History", action: #selector(clearClipboard), keyEquivalent: "")
+        menu.addItem(withTitle: "Empty Shelf", action: #selector(clearShelf), keyEquivalent: "")
         menu.addItem(NSMenuItem.separator())
-        menu.addItem(withTitle: "Ayarlar", action: #selector(openSettings), keyEquivalent: ",")
-        menu.addItem(withTitle: "Çıkış", action: #selector(quitApp), keyEquivalent: "q")
+        menu.addItem(withTitle: "Settings", action: #selector(openSettings), keyEquivalent: ",")
+        menu.addItem(withTitle: "Quit", action: #selector(quitApp), keyEquivalent: "q")
         
         menu.items.forEach { $0.target = self }
         NSMenu.popUpContextMenu(menu, with: event, for: view)

@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://github.com/DevKursat/NotchShelf/blob/main/assets/icon.png?raw=true" width="128" alt="NotchShelf Icon"/>
   <h1>NotchShelf 🗂️</h1>
-  <p><b>macOS'in eksik olan <i>en güçlü</i> gizli silahı.</b></p>
+  <p><b>macOS's missing <i>most powerful</i> secret weapon.</b></p>
   
   <p>
     <a href="https://github.com/DevKursat/NotchShelf/releases/latest"><img alt="macOS 14.0+" src="https://img.shields.io/badge/macOS-14.0%2B-blue?style=for-the-badge&logo=apple" /></a>
@@ -13,49 +13,59 @@
 
 <br/>
 
-> 2026'nın en zarif, %0 boşta CPU tüketen, 30MB altı RAM kullanan efsanevi çentik aracı! 
-> MacBook'unuzun çentiğini canlandırın, ekranınızı uçurun.
+> The most elegant, legendary notch tool of 2026, consuming 0% idle CPU and under 30MB of RAM! 
+> Bring your MacBook's notch to life, and let your screen fly.
 
-**NotchShelf**, ekranınızdaki atıl durumdaki "Çentik" (Notch) veya "Dinamik Ada"yı akıllı bir panele dönüştüren **%100 Native (AppKit + SwiftUI)** macOS aracıdır. *Electron yok, WebView yok, şişkinlik yok!*
+**NotchShelf** is a **100% Native (AppKit + SwiftUI)** macOS tool that turns your idle "Notch" or "Dynamic Island" into a smart panel. *No Electron, no WebView, no bloat!*
 
----
-
-## 🌟 Neden NotchShelf?
-
-- 🧠 **Sıfır Bağımlılık (0 Dependencies):** Tamamen saf Swift ile Apple API'leri kullanılarak kodlandı.
-- ⚡ **İnanılmaz Performans:** Arka planda çalışırken CPU kullanımı %0.
-- 🎨 **Liquid Glassmorphism:** Gerçek 120Hz ProMotion uyumlu ultra-akıcı fiziksel yay animasyonları.
-- 🚀 **Floating Island Desteği:** Eğer ekranınızda çentik yoksa veya harici monitördeyseniz, üst merkezde zarif bir yüzen ada (Dynamic Island) olarak çalışır.
-
-## 🔥 İnanılmaz Özellikler
-
-### 1. Akıllı Geçici Raf (NotchDrop)
-Dosyaları (Görsel, PDF, Metin) tutup çentiğe doğru sürükleyin. NotchShelf onları yutar ve orada havada asılı tutar. Başka bir pencereye geçip dosyayı tekrar tutup istediğiniz yere bırakın!
-
-### 2. Görsel Pano Yöneticisi (Visual Clipboard)
-Kopyaladığınız son metinler ve görseller anında çentik hafızasında. `Cmd+C` yaptığınız her şey bir tık uzağınızda. 
-
-### 3. Trackpad & Fare Sihri (Magic Gestures)
-- **Çift Tık:** Rafı aç/kapat.
-- **Scroll (Fare Tekerleği):** Çentiğin üzerindeyken tekerleği dikey kaydırarak sistem sesini değiştirin!
-- **Haptic Feedback:** Çentiğe tıkladığınızda veya dosya bıraktığınızda Force Touch titreşim motoru ile fiziksel olarak tıklamayı *hissedin*.
+**[Try it out quickly on our GitHub Pages site!](https://devkursat.github.io/NotchShelf/)**
 
 ---
 
-## ⚙️ Hızlı Kurulum
+## 🌟 Why NotchShelf?
 
-$99 Apple Geliştirici lisansına ihtiyacınız yok! Özel olarak tasarlanan CI/CD akışımız size hazır bir `.dmg` sunar.
+- 🧠 **Zero Dependencies:** Coded entirely in pure Swift using Apple APIs.
+- ⚡ **Incredible Performance:** 0% CPU usage while running in the background.
+- 🎨 **Liquid Glassmorphism:** Ultra-smooth physical spring animations with true 120Hz ProMotion support.
+- 🚀 **Floating Island Support:** If your screen doesn't have a notch or you are on an external monitor, it works as an elegant floating island at the top center.
 
-1. [Releases](../../releases) sayfasından en güncel `NotchShelf.dmg` dosyasını indirin.
-2. DMG'yi açıp **NotchShelf** uygulamasını `Applications` klasörüne atın.
-3. **Önemli:** Gatekeeper uyarısı almamak için Terminal'de şu komutu çalıştırın:
+## 🔥 Amazing Features
+
+### 1. Smart Temporary Shelf (NotchDrop)
+Drag files (Images, PDFs, Text) towards the notch. NotchShelf swallows them and keeps them hovering there. Switch to another window, grab the file again, and drop it wherever you want!
+
+### 2. Visual Clipboard Manager (Visual Clipboard)
+Your recently copied texts and images are instantly in the notch memory. Everything you `Cmd+C` is just a click away.
+
+### 3. Trackpad & Mouse Magic (Magic Gestures)
+- **Double Click:** Open/close the shelf.
+- **Scroll (Mouse Wheel):** Change the system volume by vertically scrolling while hovering over the notch!
+- **Haptic Feedback:** *Feel* the physical click with the Force Touch vibration motor when you click the notch or drop a file.
+
+---
+
+## 🔒 Unlock NotchShelf (The Viral Loop)
+
+To keep this amazing tool free and growing, we kindly ask for your support! To fully unlock and use NotchShelf, you must **Star this repository** and **Follow the developer** on GitHub. 
+
+When you launch the app, it will verify your support! Spread the word and help us build the ultimate macOS utility! 🚀
+
+---
+
+## ⚙️ Quick Setup
+
+You don't need a $99 Apple Developer license! Our custom CI/CD pipeline provides you with a ready-to-use `.dmg`.
+
+1. Download the latest `NotchShelf.dmg` from the [Releases](../../releases) page.
+2. Open the DMG and drag the **NotchShelf** application into the `Applications` folder.
+3. **Important:** To avoid the Gatekeeper warning, run the following command in the Terminal:
    ```bash
    xattr -cr /Applications/NotchShelf.app
    ```
-4. Uygulamayı açın ve çentiğinize dokunun! 🎉
+4. Open the app and touch your notch! 🎉
 
-### 🛠 Kendi Xcode'unuzda Derleyin (Hacker'lar için)
-NotchShelf UUID çakışmasını engellemek için `xcodegen` kullanır. Sadece 2 komutla projeyi sıfırdan oluşturun:
+### 🛠 Build in Your Own Xcode (For Hackers)
+NotchShelf uses `xcodegen` to prevent UUID conflicts. Generate the project from scratch with just 2 commands:
 ```bash
 git clone https://github.com/DevKursat/NotchShelf.git
 cd NotchShelf
@@ -67,7 +77,7 @@ open NotchShelf.xcodeproj
 ---
 
 <div align="center">
-  <b>🌟 Beğendiniz mi? Bu projeyi desteklemek için sağ üstten bir "Yıldız (Star)" verin! 🌟</b>
+  <b>🌟 Did you like it? Please drop a "Star" from the top right to support this project! 🌟</b>
   <br><br>
-  <i>DevKursat ve AI tarafından Gururla Geliştirilmiştir (2026)</i>
+  <i>Proudly Developed by DevKursat and AI (2026)</i>
 </div>
