@@ -1,0 +1,25 @@
+name: NotchShelf
+options:
+  bundleIdPrefix: com.notchshelf
+  deploymentTarget:
+    macOS: 14.0
+
+targets:
+  NotchShelf:
+    type: application
+    platform: macOS
+    sources: [NotchShelf/Sources]
+    info:
+      path: NotchShelf/Info.plist
+      properties:
+        CFBundleDisplayName: NotchShelf
+        CFBundleShortVersionString: 1.0.0
+        CFBundleVersion: 1
+        NSHumanReadableCopyright: "Copyright © 2026 NotchShelf. All rights reserved."
+        LSUIElement: true # This hides the dock icon, acting as accessory app!
+    settings:
+      CODE_SIGN_IDENTITY: "-"
+      CODE_SIGN_STYLE: Manual
+      CODE_SIGNING_REQUIRED: NO
+      CODE_SIGNING_ALLOWED: NO
+      DEVELOPMENT_TEAM: ""
